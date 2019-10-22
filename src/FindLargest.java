@@ -11,18 +11,12 @@ public class FindLargest {
 
         if(num1>num2){
             System.out.println(num1+" is larger than "+num2);
-
         }
-
         if(num1==num2){
             System.out.println(num1+" and "+num2+" are equal");
         }
-
         if(num1<num2){
             System.out.println(num2+" is larger than "+num1);
         }
-
-
     }
-
 }
