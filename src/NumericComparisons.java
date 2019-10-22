@@ -8,6 +8,12 @@ public class NumericComparisons {
         Scanner NC = new Scanner(System.in);
         int num = NC.nextInt();
         System.out.println(isOdd(num));
+        System.out.println(isEven(num));
+        System.out.println(isZero(num));
+        System.out.println(isPostive(num));
+        System.out.println(isNegative(num));
+        System.out.println(isNonnegative(num));
+        System.out.println(isNonpositive(num));
 
     }
         public static boolean isOdd(int num1) { return num1 % 2 == 1 ;}
