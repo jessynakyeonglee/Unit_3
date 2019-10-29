@@ -1,11 +1,12 @@
 public class DiscriminantAndRoots {
       public static String DARmethod(int a, int b, int c){
         if (Math.pow(b,2)-4*a*c>0)
-            return a+"^2+"+b+"x+"+c+" has 2 imaginary roots";
-        if (Math.pow(b,2)-4*a*c==0)
-        return "1 real";
-        if (Math.pow(b,2)-4*a*c<0)
-        return "2 real";
+            return a+"x^2 + "+b+"x + "+c+" has 2 real roots";
+        else if (Math.pow(b,2)-4*a*c==0)
+            return a+"x^2 + "+b+"x + "+c+" has 1 real root";
+        else
+            return a + "x^2 + " + b + "x + " + c + " has 2 imaginary roots";
+
     }
 
     public static void main(String[]args) {
