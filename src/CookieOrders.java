@@ -6,18 +6,18 @@ public class CookieOrders {
             return "Your input is invalid";
         if (numboxes < 5) {
             double cost = 6.95;
-            return "You bought " + numboxes + "boxes of cookies at $" +cost+ " per box. Your total bill is $" + cost * numboxes; }
+            return "You bought " + numboxes + " boxes of cookies at $" +cost+ " per box. Your total bill is $" + cost * numboxes; }
         else if (numboxes < 10) {
             double cost = 5.95;
-            return "You bought " + numboxes + "boxes of cookies at $" +cost+ " per box. Your total bill is $" + cost * numboxes;
+            return "You bought " + numboxes + " boxes of cookies at $" +cost+ " per box. Your total bill is $" + cost * numboxes;
         }
         else if (numboxes < 16) {
             double cost = 5.50;
-            return "You bought " + numboxes + "boxes of cookies at $" + cost + " per box. Your total bill is $" + cost * numboxes;
+            return "You bought " + numboxes + " boxes of cookies at $" + cost + " per box. Your total bill is $" + cost * numboxes;
         }
         else {
             double cost = 4.95;
-            return "You bought " + numboxes + "boxes of cookies at $" + cost + " per box. Your total bill is $" + cost * numboxes;
+            return "You bought " + numboxes + " boxes of cookies at $" + cost + " per box. Your total bill is $" + cost * numboxes;
         }
          }
     public static void main(String[] args) {
